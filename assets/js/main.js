@@ -227,3 +227,17 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+document.addEventListener('DOMContentLoaded', function() {
+  const whatsappLink = document.getElementById('whatsappLink');
+
+  // Example: Set the link dynamically based on some condition
+  const inputLink = ''; // Replace with your logic to determine the link
+
+  if (inputLink) {
+    whatsappLink.href = inputLink;
+    whatsappLink.classList.remove('disabled');
+  } else {
+    whatsappLink.removeAttribute('href');
+    whatsappLink.classList.add('disabled');
+  }
+});
