@@ -372,9 +372,9 @@ preloader:before {
     transform: rotate(360deg);
   }
 }
-/*--------------------------------------------------------------
+
 # Scroll Top Button
---------------------------------------------------------------*/
+
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -406,7 +406,7 @@ preloader:before {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
+
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
