@@ -341,7 +341,7 @@ h6 {
 /*--------------------------------------------------------------
 /* # Preloader
 --------------------------------------------------------------*/
-#preloader {
+preloader {
   position: fixed;
   inset: 0;
   z-index: 999999;
@@ -350,7 +350,7 @@ h6 {
   transition: all 0.6s ease-out;
 }
 
-#preloader:before {
+preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
