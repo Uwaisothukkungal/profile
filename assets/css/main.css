@@ -350,7 +350,7 @@ h6 {
   transition: all 0.6s ease-out;
 }
 
-preloader:before {
+#preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -373,8 +373,9 @@ preloader:before {
   }
 }
 
+/*--------------------------------------------------------------
 # Scroll Top Button
-
+--------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -406,7 +407,7 @@ preloader:before {
   bottom: 15px;
 }
 
-
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
